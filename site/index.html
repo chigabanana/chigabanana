@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <html ng-app>
     <style>
 
     #map {
@@ -67,6 +67,11 @@
     <![endif]-->
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    What is your name?
+            <input type="text" ng-model="name" />
+
+            <h1>Hello <span>{{ name }}</span></h1>
+
 
 
 <aside class="main-intro">
