@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="../index.css">
+<script src="menu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <body class="body">
+
+    <header>
+    <!-- nav bar  -->
+    <?php include 'html/menu.php'; ?>
+  </header>
+  <div class="all" >
+
+  <!-- images to hire work and book court first one -->
+  <main>
+    <div class="container-fluit" id="header" >
+      <hr>
+      <div class="row">
+        <!-- buttons -->
+        <div class="col-md-4" align="center" >
+          <form class="" action="hire?type=coach" method="post">
+            <br>
+          <input type="submit" id="header-btn" class="form-control btn btn-primary" font name="button" value="Hire Coach">
+        </form>
+          <br> <img width="50%"src="http://vogelmorntennisclub.com/wp-content/uploads/2010/02/Coaching3.jpg" alt="">
+        </div>
+        <div class="col-md-4" align="center" id="header-btn">
+          <form class="" action="hire?type=book" method="post">
+            <br>
+          <input type="submit" id="header-btn" class="form-control btn btn-success" font name="button" value="Hire court">
+          </form>
+          <br> <img width="50%"src="https://www.davidlloyd.co.uk/-/media/david-lloyd/images/clubs/finchley/dl_finchely_indoor_tennis_1440x780.jpg" alt="">
+        </div>
+        <div class="col-md-4" align="center" id="header-btn">
+          <form class="" action="hire?type=sparing" method="post">
+            <br>
+          <input type="submit" id="header-btn" class="form-control btn btn-danger" font name="button" value="Hire Sparring Partner">
+          </form>
+          <br> <img width="50%"src="http://medias.lequipe.fr/img-photo-jpg/thomas-drouet-a-v-cu-un-enfer-avec-le-clan-tomic/1500000000314011/0:131,2048:1163-624-416-75/e4e7b.jpg" alt="">
+        </div>
+      </div>
+      <hr>
+    </div>
+  <!-- advice for users-->
+  <div class="">
+    <a href="/signin"><h5 id="adviceHeader"align="center">are you talented and looking for work? sign up Today</h5></a>
+  </div>
+  <!-- main-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6" align="center">
+          <img width="100%"src="https://www.gannett-cdn.com/-mm-/c024eed4d33abeb3691ada9be6e8864974377e46/c=68-0-2933-2154&r=x404&c=534x401/local/-/media/2015/01/29/USATODAY/USATODAY/635581174637603668-GTY-462327876-70353878.JPG" alt="">
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          <h1>Want to play? </h1>
+          <p>you want to play and you dont know how to start (from where you begin)<br>
+          Post your demand and receive competitive bids from coaches who are from your region whithin minutes.<br><br>
+           our reputation system will make it easy to find the perfect coach for your skills.<br><br>
+           it's the simplest and safest way to find a coach or to book a court</p>
+           <h1>How do you benefit? <small></small></h1>
+        </div>
+
+      </div>
+    </div>
+  <!-- want to hire sparing partenaire -->
+
+<hr>
+<article class="">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- button-->
+      <div class="col-md-6" align="">
+        <h3>Are you looking for tennis job opportunity?<br> You are in the best place! XXXXXX is an online platform for all Tennis coachs  <br> <h2>join for Free</h2> </h3>
+        <form class="" action="/signin" method="post">
+          <input type="submit"  class="form-control btn btn-success" font name="button"  value="join XXX Now"> <br>
+        </form>
+            </div>
+      <!-- images -->
+      <div class="col-md-6" align="center">
+        <img width="100%"src="http://vogelmorntennisclub.com/wp-content/uploads/2010/02/Coaching3.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</article>
+<hr>
+<article class="">
+  <!-- recommended coach -->
+  <?php include 'html/recCoach.php'; ?>
+</article>
+<hr>
+<article class="">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- images -->
+      <div class="col-md-6" align="left">
+        <img width="100%"src="https://www.davidlloyd.co.uk/-/media/david-lloyd/images/clubs/finchley/dl_finchely_indoor_tennis_1440x780.jpg" alt="">
+      </div>
+      <!-- button-->
+      <div class="col-md-6" align="left">
+        <h3>Are you Finding difficulty in your online courts booking?  <br> XXX will help you out and make it easy for you by organising your booking schedule <br> join XXX family today and forget about booking problems  </h3>
+        <form class="" action="/signin" method="post">
+          <input type="submit"  class="form-control btn btn-info" font name="button"  value="join XXX Now"> <br>
+        </form>
+      </div>
+    </div>
+  </div>
+</article>
+  <hr>
+<article class="">
+  <!-- recommended club -->
+  <?php include 'html/recClub.php'; ?>
+</article>
+  <hr>
+  <article class="">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- button-->
+        <div class="col-md-6" align="left">
+          <h3>Are you a good tennis player ? <br> and you want to work as sparring partenaire ? <br> You're in the best place . Join XXX family today for free  </h3>
+          <form class="" action="/signin" method="post">
+            <input type="submit"  class="form-control btn btn-warning" font name="button"  value="join XXX Now"> <br>
+          </form>
+                </div>
+        <!-- images -->
+        <div class="col-md-6" align="center">
+          <img width="100%"src="http://medias.lequipe.fr/img-photo-jpg/thomas-drouet-a-v-cu-un-enfer-avec-le-clan-tomic/1500000000314011/0:131,2048:1163-624-416-75/e4e7b.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </article>
+  <hr>
+<article class="">
+  <!-- recommended sparing partenaire -->
+  <?php include 'html/recSparing.php'; ?>
+
+</article>
+<hr>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <article class="">
+        <h3 align="center">Place your report here</h3>
+        <form class="" action="index.html" method="post">
+          <div class="input-group">
+            <span class="input-group-addon">Your Name  </span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">Message</span>
+            <textarea type="text" class="form-control" placeholder=""></textarea>
+          </div>
+          <div class="" id="sendAnul">
+            <div class="row">
+
+              <div class="col-md-6">
+                <input type="submit" name="" class="form-control btn btn-primary"value="Send">
+
+              </div>
+              <div class="col-md-6">
+                <input type="reset" name="" class="form-control btn btn-danger" value="Annuler">
+
+              </div>
+            </div>
+        </div>
+
+        </form>
+      </article>
+    </div>
+    <div class="col-md-6">
+      <article class="">
+        <h3 align="center">place your suggestion here</h3>
+        <form class="" action="index.html" method="post">
+          <div class="input-group">
+            <span class="input-group-addon">Your Name  </span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">suggestion</span>
+            <textarea type="text" class="form-control" placeholder=""></textarea>
+          </div>
+          <div class="row">
+
+            <div class="col-md-6">
+              <input type="submit" name="" class="form-control btn btn-primary"value="Send">
+
+            </div>
+            <div class="col-md-6">
+              <input type="reset" name="" class="form-control btn btn-danger" value="Annuler">
+
+            </div>
+          </div>
+
+        </form>
+      </article>
+    </div>
+  </div>
+</div>
+
+<br>
+</div>
+
+</main>
+
+  <footer>
+    <!--footer-->
+    <?php include 'html/footer.php'; ?>
+  </footer>
+
+
+  </body>
+</html>
